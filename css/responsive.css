@@ -1,0 +1,318 @@
+/* large device starts */
+@media (max-width: 1199.98px) {
+    #banner .banner-slider .banner-item.item-1 .banner-content h3::before {
+        left: -32px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content::before {
+        height: 216px;
+        bottom: 150px;
+        left: -32px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content::after {
+        height: 217px;
+        bottom: 147px;
+        right: -11px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h1::before {
+        width: 83px;
+        bottom: -111px;
+        right: -8px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h1::after {
+        width: 91px;
+        bottom: -107px;
+        left: -29px;
+    }
+
+    #classes .class-item ul li {
+        width: 19.55%;
+    }
+
+    footer .medium .flickr .flickr-gallery .image {
+        width: 21%;
+    }
+}
+
+/* large device ends */
+
+/* medium device starts */
+@media (max-width: 991.98px) {
+    .navbar .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar .navbar-toggler span {
+        color: #fff;
+        font-size: 26px;
+    }
+
+    .navbar .navbar-brand {
+        position: static;
+        padding: 0;
+        transform: skewX(0);
+        background: transparent;
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0);
+    }
+
+    .navbar .navbar-nav {
+        margin-top: 20px;
+        background: transparent;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    #banner .banner-slider .banner-item .banner-content {
+        padding-top: 180px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h3::before {
+        width: 76px;
+        left: -17px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h3::after {
+        width: 70px;
+        right: -18px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content::before {
+        height: 220px;
+        bottom: 147px;
+        left: -20px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content::after {
+        right: -18px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h1::before {
+        width: 46px;
+        right: -15px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h1::after {
+        width: 54px;
+        bottom: -114px;
+        left: -20px;
+    }
+
+    #about {
+        padding-top: 50px;
+        padding-bottom: 42px;
+    }
+
+    #team {
+        margin-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    #plan {
+        padding: 48px 0;
+    }
+
+    #classes {
+        margin-top: 45px;
+    }
+
+    #classes .class-item ul li {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 19.41%
+    }
+
+    #classes .class-item ul li p {
+        font-size: 14px;
+    }
+
+    #classes .class-item ul li p:last-of-type {
+        font-size: 12px;
+    }
+
+    #classes .class-menu .nav-link {
+        line-height: 30px;
+    }
+
+    #brand {
+        margin: 45px 0;
+    }
+
+    #brand .spacing {
+        padding: 0 10px;
+    }
+
+    #brand .prev-arrow {
+        left: -20px;
+        font-size: 22px;
+    }
+
+    #brand .next-arrow {
+        right: -20px;
+        font-size: 22px;
+    }
+
+    footer .medium h4 {
+        padding-bottom: 12px;
+    }
+}
+
+/* medium device ends */
+
+/* small device starts */
+@media (max-width: 767.98px) {
+    #banner .banner-slider .banner-item .banner-content {
+        padding-top: 160px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h3::before {
+        width: 164px;
+        top: 22px;
+        left: -11px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h3::after {
+        width: 109px;
+        top: 22px;
+        right: -11px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content::before {
+        height: 199px;
+        bottom: 145px;
+        left: -11px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content::after {
+        height: 199px;
+        bottom: 145px;
+        right: -11px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h1::before {
+        width: 40px;
+        bottom: -96px;
+        right: -11px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h1::after {
+        width: 70px;
+        bottom: -96px;
+        left: -11px;
+    }
+
+    #team .team-member {
+        margin-top: 40px;
+    }
+
+    #counter .counter-item h4 {
+        font-size: 30px;
+    }
+
+    #counter .counter-item p {
+        font-size: 12px;
+    }
+
+    #classes .class-menu .nav-item {
+        width: 33.33%;
+    }
+
+    #classes .class-item ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 19.2%;
+    }
+
+    #classes .class-item ul li i {
+        font-size: 30px;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+
+    footer .footer-logo {
+        margin-bottom: 10px;
+    }
+}
+
+/* small device ends */
+
+/* extra small device starts */
+@media (max-width: 575.98px) {
+    .section-header h2 {
+        font-size: 16px;
+    }
+
+    .navbar .navbar-toggler span {
+        font-size: 20px;
+    }
+
+    #banner .banner-slider .banner-item .banner-content h3 {
+        font-size: 20px;
+    }
+
+    #banner .banner-slider .banner-item .banner-content h1 {
+        font-size: 40px;
+    }
+
+    .navbar .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .navbar .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    #banner .banner-slider .banner-item.item-1 .banner-content h3::before,
+    #banner .banner-slider .banner-item.item-1 .banner-content h3::after,
+    #banner .banner-slider .banner-item.item-1 .banner-content::before,
+    #banner .banner-slider .banner-item.item-1 .banner-content::after,
+    #banner .banner-slider .banner-item.item-1 .banner-content h1::before,
+    #banner .banner-slider .banner-item.item-1 .banner-content h1::after {
+        display: none;
+    }
+
+    #classes .class-menu .nav-link {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    #classes .class-item ul li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 18.5%;
+    }
+
+    #classes .class-item ul li p {
+        font-size: 10px;
+    }
+
+    #classes .class-item ul li p:last-of-type {
+        font-size: 8px;
+    }
+
+    #brand .spacing {
+        padding: 0 8px;
+    }
+
+    #brand .prev-arrow {
+        left: -10px;
+        font-size: 18px;
+    }
+
+    #brand .next-arrow {
+        right: -10px;
+        font-size: 18px;
+    }
+}
+
+/* extra small device ends */
