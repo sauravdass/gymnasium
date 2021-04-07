@@ -43,6 +43,7 @@
 @media (max-width: 991.98px) {
     .navbar .navbar-toggler {
         border-color: #fff;
+        outline: none;
     }
 
     .navbar .navbar-toggler span {
@@ -265,11 +266,11 @@
     }
 
     .navbar .navbar-brand {
-        margin-left: 20px;
+        margin-left: 24px;
     }
 
     .navbar .navbar-toggler {
-        margin-right: 20px;
+        margin-right: 24px;
     }
 
     #banner .banner-slider .banner-item.item-1 .banner-content h3::before,
@@ -279,6 +280,22 @@
     #banner .banner-slider .banner-item.item-1 .banner-content h1::before,
     #banner .banner-slider .banner-item.item-1 .banner-content h1::after {
         display: none;
+    }
+
+    #plan .plan-box .plan-head h4{
+        line-height: 40px;
+    }
+
+    #plan .plan-box .pricing h3{
+        line-height: 70px;
+    }
+
+    #plan .plan-box .features{
+        padding: 10px 0;
+    }
+
+    #plan .plan-box .plan-footer a.btn{
+        line-height: 24px;
     }
 
     #classes .class-menu .nav-link {
