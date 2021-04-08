@@ -77,8 +77,10 @@ $(document).ready(function(){
 
     //custom jquery code for functionalities
     let backToTop = $('#backToTop');
+    let logo = $('.navbar .navbar-brand, #contact .copyright a, #contact .footer-logo a');
     let menu = $('.navbar');
     let html_body = $('html,body');
+    // let logo = $('');
       
     $(window).on('scroll',function(){
         let scrolling = $(window).scrollTop();
@@ -102,11 +104,20 @@ $(document).ready(function(){
     backToTop.on('click',function(){
         html_body.animate({
             scrollTop : 0
-        },1000);
+        },1200);
 
         $('.navbar .navbar-nav li.home').addClass('active').siblings().removeClass('active');
     });
-      
+
+    //click on logo
+    logo.on('click',function(){
+        html_body.animate({
+            scrollTop : 0
+        },1200);
+
+        $('.navbar .navbar-nav li.home').addClass('active').siblings().removeClass('active');
+    });
+
     //smooth scroll and active menu button code
     $('.navbar .navbar-nav .nav-item .nav-link').on('click', function(){
         //add active class in nav item
